@@ -1,3 +1,7 @@
+exports.handler = function(event, context, callback) {
+    // your server-side functionality
+}
+
 $(document).ready(function(){
  
     // ici le code que je t'ai fourni dans le jsfiddle
