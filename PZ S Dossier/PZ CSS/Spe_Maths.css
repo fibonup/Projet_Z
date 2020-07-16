@@ -25,7 +25,7 @@ body
 
 	/*border-bottom: tom: 5px rgba(100,100,100,0.4) solid;*/
 	
-	background-color: /*vert*/ rgb(209,73,47);
+	background-color:  rgb(209,73,47);
 	/*animation: example 30s infinite;*/
 
 	rgb(209,73,47)
@@ -458,7 +458,7 @@ body
 {
 	height: 150px;
 	width: 250px;
-	background-color: orange;
+	background-color: rgba(209,73,47,0.7);
 	/*border-radius: 15px  0px 0px 0px  ;*/
 	
 
