@@ -683,13 +683,12 @@ body
 
 #footer
 {
-	background-color: /*vert*/ rgb(36,115,57);
+	background-color: orange;
 	padding: 20px;
 
 	display: flex;
 	margin: -1%;
-	/*border-bottom: 5px  rgb(149,193,13) solid;*/
-	/*border-top: 5px  rgb(149,193,13) solid;*/
+	
 	padding-left: 50px;
 }
 
