@@ -5,7 +5,8 @@ body
  	padding:auto;
 	background-color: /*blanc*/ rgb(238,238,238);
 
-
+	background-image: url("../PZ IMAGES/landscape-3969127_1920.jpg");
+	background-attachment:fixed;
 }
 
 
@@ -33,8 +34,7 @@ body
 	animation: example 30s infinite;
 	box-shadow: inset 0 0 1em transparent, 0 0 1em  grey/*rgb(36,115,57)*/;
 
-	background-image: url("../PZ IMAGES/landscape-3969127_1920.jpg");
-	background-attachment:fixed;
+	
 	
 }
 
