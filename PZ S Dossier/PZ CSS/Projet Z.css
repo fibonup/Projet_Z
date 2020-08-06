@@ -228,14 +228,14 @@ body
 	justify-content: space-around;
 	align-items: center;
 	margin: auto;
-	margin-bottom: 60px;
+	/*margin-bottom: 60px;*/
 	/*display: flex;*/
 	background-color: white;
 	/*height: 100px;*/
-	width: 1160px;
+	/*width: 1160px;*/
 	text-align: center;
 	padding: 30px;
-	border-radius: 10px/* 40px 0px 0px*/;
+	/*border-radius: 10px;*/
 }
 
 
