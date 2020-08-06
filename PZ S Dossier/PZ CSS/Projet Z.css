@@ -25,7 +25,7 @@ body
 	height: 100px;
 
 	/*margin: -1%;*/
-	margin-bottom: 10px;
+	/*margin-bottom: 10px;*/
 
 	/*border-bottom: tom: 5px rgba(100,100,100,0.4) solid;*/
 	
@@ -228,7 +228,7 @@ body
 	justify-content: space-around;
 	align-items: center;
 	margin: auto;
-	/*margin-bottom: 60px;*/
+	margin-bottom: 60px;
 	/*display: flex;*/
 	background-color: white;
 	/*height: 100px;*/
