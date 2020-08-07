@@ -285,7 +285,7 @@ body
 	box-shadow: inset 0 0 1em transparent, 0 0 0.5em  rgb(230,230,230)/*rgb(36,115,57)*/;
 
 
-	background-image: url("../../PZ IMAGES/spain-4719896_1280.jpg");
+	background-image: url("../../PZ IMAGES/spain-4719896_1280.jpg"); /* coordonnées de l'image: 36°32'01.4"N 6°17'42.8"W*/
 	background-attachment:fixed;
 }
 
