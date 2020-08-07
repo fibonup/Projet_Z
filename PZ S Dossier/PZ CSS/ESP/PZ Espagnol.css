@@ -283,6 +283,10 @@ body
 	font-family:  Trebuchet MS, sans-serif	/*Arial Narrow, sans-serif Andale Mono, monospace*/;
 	/*font-style: italic;  */
 	box-shadow: inset 0 0 1em transparent, 0 0 0.5em  rgb(230,230,230)/*rgb(36,115,57)*/;
+
+
+	background-image: url("../../PZ IMAGES/spain-4719896_1280.jpg");
+	background-attachment:fixed;
 }
 
 #Lecturas
