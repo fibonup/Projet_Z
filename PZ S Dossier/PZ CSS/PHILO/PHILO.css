@@ -266,26 +266,40 @@ body
 {
 	display: flex;
 	border: 3px rgb(230,230,230) solid;
-	background-color: white /*red*/;
+	background-color: /*white*/ rgb(205,55,0) /*red*/;
 	/*height: 200px;*/
 	margin-right: 50px;
 	margin-left: 50px;
 	padding: 30px;
+	color: white;
+	transition: 0.3s;
 	/*margin: auto;*/
 	/*justify-content: space-around;*/
 }
 
+#Bloc_info:hover
+{
+	background-color: /*white*/ white /*red*/;
+	color: rgb(205,55,0);
+	transition: 0.3s;
+}
+
+
+#logo_dico
+{
+	margin-left: 40px;
+}
 
 #Texte_Bloc_info
 {
 	/*text-align: right;*/
 	/*background-color: green;*/
 	font-family: Trebuchet MS;
-	color: grey;
+	/*color: grey white;*/
 	width: 720px;
 	margin-right: 50px;
-	margin-left: 130px;
-	line-height: 25px;
+	margin-left: 30px;
+	line-height: 30px;
 }			
 
 
