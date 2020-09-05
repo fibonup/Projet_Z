@@ -273,6 +273,7 @@ body
 	padding: 30px;
 	color: white;
 	transition: 0.3s;
+	cursor: pointer;
 	/*margin: auto;*/
 	/*justify-content: space-around;*/
 }
