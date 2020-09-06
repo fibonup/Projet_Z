@@ -64,6 +64,19 @@ body
 	color: white;
 
 	cursor: pointer;
+	transition: 0.3s;
+}
+
+
+#Matière:hover
+{
+	
+	transition: 0.3s;
+
+	background-color: white ;
+	color: #29afb7;
+
+	cursor: pointer;
 }
 
 #boite_logo
