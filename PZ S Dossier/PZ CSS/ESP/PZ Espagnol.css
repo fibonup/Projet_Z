@@ -336,8 +336,7 @@ body
 {
 	display: flex;
 	margin: auto;
-	padding: auto;
-	height: 130px;
+	padding: 30px;
 	width: 85%;
 	background-color: white;
 	border-radius: 20px;
