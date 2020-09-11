@@ -347,7 +347,7 @@ body
 
 #BlocMetodología:hover
 {
-	box-shadow: inset 0 0 1em transparent, 0 0 1em  rgb(152,53,24);
+	box-shadow: inset 0 0 1em transparent, 0 0 2em  rgb(152,53,24);
 	transition: 0.3s;
 }
 
