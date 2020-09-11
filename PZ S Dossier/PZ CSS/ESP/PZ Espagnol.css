@@ -359,7 +359,11 @@ body
 	height: 100px;
 	width: 50%;
 	margin-left: 50px;
+	padding: 20px;
 	background-color: yellow;
+	
+	font-family: Trebuchet MS;
+	color: rgb(222,88,51);
 }
 
 
