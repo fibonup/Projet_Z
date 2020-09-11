@@ -335,13 +335,31 @@ body
 #BlocMetodología
 {
 	margin: auto;
-	height: 100px;
+	height: 130px;
 	width: 85%;
 	background-color: white;
 	border-radius: 20px;
+	cursor: pointer;
 }
 
+#ImageMetodología
+{
+	
+	height: 100px;
+	width: 100px;
+	background-color: red;
+	
+}
 
+#TexteMetodología
+{
+	margin: auto;
+	height: 130px;
+	width: 85%;
+	background-color: yellow;
+	border-radius: 20px;
+	cursor: pointer;
+}
 
 
 #Lecturas
