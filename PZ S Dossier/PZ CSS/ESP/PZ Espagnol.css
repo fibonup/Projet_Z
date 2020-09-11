@@ -346,7 +346,7 @@ body
 
 #BlocMetodología:hover
 {
-	box-shadow: inset 0 0 1em transparent, 0 0 1em  rgb(195,195,195);
+	box-shadow: inset 0 0 1em transparent, 0 0 1em  rgb(163,163,163);
 }
 
 #ImageMetodología
@@ -364,8 +364,8 @@ body
 	/*height: 100px;*/
 	width: 50%;
 	margin-left: 50px;
-	padding: 20px;
-	background-color: yellow;
+	padding: 10px;
+	/*background-color: yellow;*/
 	
 	font-family: Trebuchet MS;
 	color: rgb(222,88,51);
