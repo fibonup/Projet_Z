@@ -336,8 +336,9 @@ body
 {
 	margin: auto;
 	height: 100px;
-	width: 80%;
+	width: 85%;
 	background-color: white;
+	border-radius: 20px;
 }
 
 
