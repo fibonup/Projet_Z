@@ -496,7 +496,7 @@ body
 	/*background-image: url(Quijote.png);*/
 	background-size: cover;
 	
-	box-shadow: inset 0 0 1em transparent, 0 0 1em  pink;
+	box-shadow: inset 0 0 1em transparent, 0 0 1em  /*pink*/ rgb(232,248,184);
 	transition: 0.4s;
 }
 
