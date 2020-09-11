@@ -349,6 +349,7 @@ body
 	
 	height: 100px;
 	width: 100px;
+	
 	background-color: red;
 	
 }
@@ -357,6 +358,7 @@ body
 {
 	height: 100px;
 	width: 50%;
+	margin-left: 50px;
 	background-color: yellow;
 }
 
