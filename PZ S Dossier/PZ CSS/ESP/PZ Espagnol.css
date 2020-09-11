@@ -295,7 +295,7 @@ body
 
 #Metodología
 {
-	display: felx;
+	
 	background-color: rgb(222,88,51);
 	padding-bottom: 100px;
 	/*border-bottom: 5px rgb(81,208,215) dashed;*/
@@ -334,6 +334,7 @@ body
 
 #BlocMetodología
 {
+	display: felx;
 	margin: auto;
 	height: 130px;
 	width: 85%;
