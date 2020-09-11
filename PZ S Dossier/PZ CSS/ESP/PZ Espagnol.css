@@ -336,6 +336,7 @@ body
 {
 	display: flex;
 	margin: auto;
+	padding: auto;
 	height: 130px;
 	width: 85%;
 	background-color: white;
