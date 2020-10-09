@@ -1,5 +1,5 @@
 @font-face { 	font-family: "ModernFonte"; 	src: url('FONT/Monterey/MontereyFLF.ttf'); }
-@font-face { 	font-family: "Quantum"; 	src: url('FONT/Quantum/Quantum.otf'); }
+@font-face { 	font-family: "Quantum"; 	src: url('../Font/Quantum.otf'); }
 @font-face { 	font-family: "Labtop"; 	src: url('FONT/Labtop/LABTOP__.ttf'); }
 @font-face { 	font-family: "Gruppo"; 	src: url('FONT/Gruppo/Gruppo-Regular.ttf'); }
 @font-face { 	font-family: "Okay"; 	src: url('FONT/Yeay/FilthofIcarus-Regular.ttf'); }
