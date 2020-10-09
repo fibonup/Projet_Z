@@ -155,6 +155,270 @@ body
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+#classe
+{
+	/*background-color: red;*/
+	width: 100px;
+	/*height: 100px;*/
+	/*align-items: center;*/
+	/*line-height: 50px;*/
+	/*justify-content: center;*/
+	/*text-align: center;*/
+	display: flex;
+   	align-items: center; 
+   	justify-content: center;
+}
+
+
+#Bouton-classe
+{
+	background-color: rgba(0,0,0,0.1);
+	width: 60px;
+	height: 60px;
+	text-align: center;
+	margin: auto;
+	display: flex;
+   	align-items: center; 
+   	justify-content: center;
+   	border-radius: 50px;
+   	color: white;
+   	font-size: 30px;
+	transition: 300ms;
+	border: none;
+	outline-style: none;
+	position: absolute;
+	z-index: 2;
+	cursor: pointer;
+	font-family: "Quantum";
+	animation: logos 8s infinite;
+	/*animation: rotates 5s infinite;*/
+	/*box-shadow: 2px -2px rgba(255,255,255,0.5)     , 1px 3px rgba(255,255,255,0.5), -4px -1px rgba(255,255,255,0.5);*/
+}
+
+#Bouton-classe:hover
+{
+	background-color: rgba(0,0,0,0.2);
+	transition: 300ms;
+}
+
+/*@keyframes logo
+{
+  	0%  {box-shadow: 3px -2px rgba(255,255,255,0.5)     , 1px 3px rgba(255,255,255,0.5), -4px -1px rgba(255,255,255,0.5);}
+  	25%  {box-shadow: 0px -2px rgba(255,255,255,0.5)     , 3px 1px rgba(255,255,255,0.5), -2px 5px rgba(255,255,255,0.5);}
+  	50%  {box-shadow: -4px 0px rgba(255,255,255,0.5)     , 3px 0px rgba(255,255,255,0.5), 2px -5px rgba(255,255,255,0.5);}
+  	75%  {box-shadow: 0px 5px rgba(255,255,255,0.5)     , 1px -3px rgba(255,255,255,0.5), -2px -2px rgba(255,255,255,0.5);}
+  	100% {box-shadow: 3px 0px rgba(255,255,255,0.5)     , -2px -4px rgba(255,255,255,0.5), 0px 3px rgba(255,255,255,0.5);}
+}*/
+
+/*@keyframes rotates 
+{
+  	0%  {    ;}
+  	100% {transform: rotate(360deg)	    ;}
+}
+*/
+@keyframes logo 
+{
+  	0%  {box-shadow: 3px -2px rgba(255,255,255,0.5)    ; /*transform: rotateX(0deg);*/ }
+  	10%  {box-shadow: 0px 4px rgba(255,255,255,0.5)    ; /*transform: rotateY(360deg);*/ }
+  	20%  {box-shadow: 3px 2px rgba(255,255,255,0.5)    ;}
+  	30%  {box-shadow: 0px -4px rgba(255,255,255,0.5)    ;}
+  	40% {box-shadow: 3px 0px rgba(255,255,255,0.5)    ;}
+  	50%  {box-shadow: -3px -3px rgba(255,255,255,0.5)   ; }
+  	60%  {box-shadow: 0px -3px rgba(255,255,255,0.5)    ;}
+  	70%  {box-shadow: 0px 3px rgba(255,255,255,0.5)    ;}
+  	80%  {box-shadow: 3px -1px rgba(255,255,255,0.5)    ;}
+  	90% {box-shadow: -3px -1px rgba(255,255,255,0.5)    ;}
+  	100% { box-shadow: 3px -2px rgba(255,255,255,0.5)    ;  }
+}
+
+
+/*{box-shadow: 0px -3px rgba(255,255,255,0.5) , 3px -3px rgba(255,255,255,0.5) , 3px 0px rgba(255,255,255,0.5) , 3px 3px rgba(255,255,255,0.5)  , 0px 3px rgba(255,255,255,0.5)  , -3px 3px rgba(255,255,255,0.5) , -3px 0px rgba(255,255,255,0.5) , -3px -3px rgba(255,255,255,0.5) ; }*/
+
+@keyframes logos 
+{
+  	0%  {box-shadow: 0px 0px rgba(255,255,255,0.5)    ; /*transform: rotateY(360deg);*/ }
+  	10%  {box-shadow: 0px -3px rgba(255,255,255,0.5) , 3px -3px rgba(255,255,255,0.3) , 2px 0px rgba(255,255,255,0.3) , 3px 3px rgba(255,255,255,0.3)  , 0px 2px rgba(255,255,255,0.3)  , -3px 3px rgba(255,255,255,0.3) , -2px 0px rgba(255,255,255,0.3) , -3px -3px rgba(255,255,255,0.3) ; /*transform: rotateX(0deg);*/ }
+  	20%  {box-shadow: 0px 0px rgba(255,255,255,0.5)    ;}
+  	30%  {box-shadow: 0px 0px rgba(255,255,255,0.5)    ; /*transform: rotateY(360deg);*/ }
+  	40% {box-shadow: 0px 0px rgba(255,255,255,0.5)    ;}
+  	50%  {box-shadow: 0px 0px rgba(255,255,255,0.5)    ;}
+  	60%  {box-shadow: 0px -3px rgba(255,255,255,0.5) , 3px -3px rgba(255,255,255,0.3) , 2px 0px rgba(255,255,255,0.3) , 3px 3px rgba(255,255,255,0.3)  , 0px 2px rgba(255,255,255,0.3)  , -3px 3px rgba(255,255,255,0.3) , -2px 0px rgba(255,255,255,0.3) , -3px -3px rgba(255,255,255,0.3) ; /*transform: rotateX(0deg);*/ }
+  	70%  {box-shadow: 0px 0px rgba(255,255,255,0.5)    ;}
+  	80%  {box-shadow: 0px 0px rgba(255,255,255,0.5)    ;}
+  	90% {box-shadow: 0px 0px rgba(255,255,255,0.5)    ;}
+  	100% {box-shadow: 0px 0px rgba(255,255,255,0.5)    ;}
+}
+
+#Choisirsaclasse
+{
+	margin: auto;
+	margin-top: -100px;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.3);
+   	/*border-radius: 20px;*/
+   	position: fixed;
+    display:none;
+    z-index: 0;
+    
+		
+}
+
+#CadrePremiere
+{
+	margin: auto;
+	width: 85%;
+	height: 100%;
+	/*background-color: red;*/
+	display: flex;
+   	align-items: center; 
+   	/*justify-content: center;*/
+   	justify-content: space-between;
+}
+
+
+#BoiteLogoPremiere
+{
+	width: 500px;
+	height: 420px;
+	background-color: red;
+}
+
+
+#Premiere
+{
+	width: 500px;
+	height: 320px;
+	background-color: white;
+   	border-radius: 40px;
+	transition: 300ms;
+   	cursor: pointer;
+	/*border: dashed black 2px;*/
+   	
+}
+
+#Premiere:hover
+{
+	 transform: translate(5px,-20px); /* Standard syntax */
+	transition: 300ms;
+
+}
+
+
+
+
+#LogoPremiere
+{
+	width: 200px;
+	height: 200px;
+	background-color: rgb(81,208,215);
+   	border-radius: 100px;
+   	display: flex;
+   	align-items: center; 
+   	justify-content: center;
+   	color: white;
+   	font-size: 100px;
+   	font-family: Trebuchet MS;
+   	margin-top: 20px;
+   	margin-left: 70px;
+   	/*background-image: url("https://cdn.pixabay.com/photo/2020/04/16/11/41/waterfall-5050298_960_720.jpg");
+	background-attachment:fixed;
+	transition: 300ms;*/
+	font-family: "Quantum";
+	/*border: dotted white 5px;*/
+}
+
+
+
+
+/*#LogoPremiere:hover
+{
+   	background-image: url("https://cdn.pixabay.com/photo/2020/04/16/11/41/waterfall-5050298_960_720.jpg");
+	background-attachment:fixed;
+	transition: 300ms;
+}*/
+
+
+#LogoTerminal
+{
+	width: 200px;
+	height: 200px;
+	background-color: rgb(149,193,13);
+   	border-radius: 100px;
+   	display: flex;
+   	align-items: center; 
+   	justify-content: center;
+   	color: white;
+   	font-size: 100px;
+   	font-family: Trebuchet MS;
+	margin-top: 20px;
+   	margin-left: 70px;
+	font-family: "Quantum";
+	/*border-right: dotted white 5px;
+	border-bottom: dotted white 5px;*/
+}
+
+#TitreClasse
+{
+	padding: 20px;
+	padding-left: 250px;
+	font-family: Trebuchet MS;
+	font-size: 40px;
+	/*background-color: red;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #document
 {
 	/*position: absolute;*/
