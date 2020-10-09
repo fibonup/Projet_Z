@@ -32,6 +32,16 @@ $(document).ready(function(){
 		// $('#bouton').html("Z");
 	}
 });
+	
+	$("#Bouton-classe").click(function() {
+    if ($("#Choisirsaclasse").css('display') == "none" ) {
+		$("#Choisirsaclasse").fadeIn(400);
+		// $('#cadre_home').html("");
+	} else {
+		$("#Choisirsaclasse").fadeOut(400);	
+		// $('#cadre_home').html("");
+	}
+});    
      
 });
 
