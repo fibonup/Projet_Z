@@ -311,7 +311,11 @@ body
 
 }
 
-
+#Premiere:hover > #LogoPremiere, #Premiere:hover > #LogoTerminal
+{
+	transition: 290ms;
+	box-shadow: inset -5px 5px rgba(0,0,0,0.3);
+}
 
 
 #LogoPremiere
