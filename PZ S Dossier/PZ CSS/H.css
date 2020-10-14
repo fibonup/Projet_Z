@@ -240,9 +240,9 @@ body
 	/*margin: -1%;*/
 	border-bottom: 5px vert rgb(51,163,83) solid;
 	border-top: 5px vert rgb(51,163,83) solid;
-	height: 1500px;
+	/*height: 1500px;*/
 	margin-bottom: 100px;
-
+	padding: 20px;
 }
 
 
