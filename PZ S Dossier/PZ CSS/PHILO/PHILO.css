@@ -393,6 +393,7 @@ body
 {
 	background-color: white/*rgb(238,238,225)*/ ;
 	padding-top: 70px;
+	padding-bottom: 50px;
 	border: 3px rgb(230,230,230) solid;
 	/*border-radius: 10px ;*/
 
@@ -401,7 +402,7 @@ body
 
 
 
-	height: 650px;
+	/*height: 650px;*/
 	margin-right: 50px;
 	margin-left: 50px;
 
