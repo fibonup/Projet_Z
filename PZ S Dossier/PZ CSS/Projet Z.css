@@ -47,7 +47,7 @@ body
 {
 	margin: auto;
 	background-color: rgb(252,241,220);
-	border: dotted 15px rgb(236,161,22);
+	border: dashed 10px rgb(236,161,22);
 	width: 1000px;
 	height: 600px;
 	border-radius: 20px;
