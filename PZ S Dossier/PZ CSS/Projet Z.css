@@ -47,7 +47,9 @@ body
 {
 	margin: auto;
 	background-color: red;
-	width: 1010
+	width: 1010;
+	justify-content: center;
+	align-items: center;
 }
 
 
