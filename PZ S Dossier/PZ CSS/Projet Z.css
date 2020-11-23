@@ -863,6 +863,11 @@ body
 	transition: 0.4s;
 }
 
+#Matieres:hover
+{
+	transform: scale(1.2); 
+}
+
 
 #Image_Matiere1
 {
