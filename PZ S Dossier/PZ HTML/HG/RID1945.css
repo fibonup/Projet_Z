@@ -540,7 +540,7 @@ body
 {
 	/*background-color: red;*/
 	display: flex;
-	width: 90%;
+	width: 90px;
 	transition: 300ms;
 	padding: 20px;
 	cursor: pointer;
