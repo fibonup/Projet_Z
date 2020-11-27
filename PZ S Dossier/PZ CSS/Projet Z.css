@@ -860,12 +860,13 @@ body
 	background-size: cover;
 	
 	box-shadow: inset 0 0 1em transparent, 0 0 1em  /*pink*/ rgb(230,230,230);
-	transition: 0.4s;
+	transition: 200ms;
 }
 
 #Matieres:hover
 {
 	transform: scale(1.1); 
+	transition: 200ms;
 }
 
 
