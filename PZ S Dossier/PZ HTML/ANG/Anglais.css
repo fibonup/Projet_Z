@@ -263,7 +263,7 @@ body
 	height: 500px;
 	display: flex;
 	justify-content: 	space-between;	
-	background-image: url(London2.jpg);
+	background-image: url("../../PZ IMAGES/London2.jpg");
 	background-position: center;
 	background-attachment: fixed;
 	border-radius: 30px;
@@ -336,25 +336,25 @@ body
 
 #ContenuImage1	
 {
-	background-image: url(BBC2.png);
+	background-image: url("../../PZ IMAGES/BBC2.png");
 	background-size: cover;
 }
 
 #ContenuImage2	
 {
-	background-image: url(Ang.png);
+	background-image: url("../../PZ IMAGES/Ang.png");
 	background-size: cover;
 }
 
 #ContenuImage3	
 {
-	background-image: url(BC.png);
+	background-image: url("../../PZ IMAGES/BC.png");
 	background-size: cover;
 }
 
 #ContenuImage4		
 {
-	background-image: url(EC.png);
+	background-image: url("../../PZ IMAGES/EC.png");
 	background-size: cover;
 }
 
@@ -758,25 +758,25 @@ body
 	
 	#ContenuImage1	
 	{
-		background-image: url(BBC2.png);
+		background-image: url("../../PZ IMAGES/BBC2.png");
 		background-size: cover;
 	}
 	
 	#ContenuImage2	
 	{
-		background-image: url(Ang.png);
+		background-image: url("../../PZ IMAGES/Ang.png");
 		background-size: cover;
 	}
 	
 	#ContenuImage3	
 	{
-		background-image: url(BC.png);
+		background-image: url("../../PZ IMAGES/BC.png");
 		background-size: cover;
 	}
 	
 	#ContenuImage4		
 	{
-		background-image: url(EC.png);
+		background-image: url("../../PZ IMAGES/EC.png");
 		background-size: cover;
 	}
 	
