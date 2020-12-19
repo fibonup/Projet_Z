@@ -474,34 +474,10 @@
 #footer
 {
 	background-color: /*FRANCAIS ROSE*/ rgb(254,190,5);
-	padding: 20px;
-
-	display: flex;
-	/*margin: -1%;*/
-	border-bottom: 5px /*FRANCAIS ROSE*/ rgb(254,190,5) solid;
-	border-top: 5px /*FRANCAIS ROSE*/ rgb(254,190,5) solid;
-	padding-left: 50px;
 }
 
 
 
-
-
-.P/*:nth-child(1)*/ a
-
-{
- 
-
-	text-decoration: none;
-	/*background-color: rgb(255,226,43);*/
-	color: rgb(238,238,238)  ;
-	padding: 20px;
-	padding-right: 25px;
-	padding-left: 25px;
-	padding-bottom: 24px;
-	padding-top:23px;
-	border-right: 1px rgb(238,238,238) solid;
-}
 
 
 
