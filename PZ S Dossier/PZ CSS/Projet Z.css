@@ -3,7 +3,7 @@
 
 body
 {
-    background-image: url("https://github.com/Jean-Marc17/Projet_Z/blob/master/PZ%20S%20Dossier/PZ%20IMAGES/landscape-3969127_1920.jpg?raw=true");
+    background-image: url("../PZ IMAGES/landscape-3969127_1920.jpg");
 	background-attachment:fixed;
 }
 
@@ -276,9 +276,9 @@ body
 {
     /* background-color: tomato; */
 	margin-right: 70px;
-    background-image: url("https://projetz.netlify.app/PZ%20S%20Dossier/PZ%20IMAGES/parcourssup.jpg");
+	background-image: url("../PZ IMAGES/parcourssup.jpg");
 	width: 474px;
-    height: 169px;
+    	height: 169px;
 	border-radius: 20px 0px 0px 20px;
 	background-size: cover;
 
@@ -444,16 +444,16 @@ body
 	background-size: cover;
 }
 
-#Image_Matiere1{background-image: url("PZ IMAGES/Quijote.png");}
-#Image_Matiere2{background-image: url("PZ IMAGES/physique.png");}
-#Image_Matiere3{background-image: url("PZ IMAGES/LOGOGEO2.png");}
-#Image_Matiere4{background-image: url("PZ IMAGES/SVT.png");}
-#Image_Matiere5{background-image: url("PZ IMAGES/math.png");}
-#Image_Matiere6{background-image: url("PZ IMAGES/Physique_spe_2.png");}
-#Image_Matiere7{background-image: url("PZ IMAGES/philo.jpg");}
-#Image_Matiere8{background-image: url("PZ IMAGES/historia imagen.png");}
-#Image_Matiere9{background-image: url("PZ IMAGES/classroom-1209820_640.jpg");}
-#Image_Matiere10{background-image: url("PZ IMAGES/ANGLOGO.png");}
+#Image_Matiere1{background-image: url("../PZ IMAGES/Quijote.png");}
+#Image_Matiere2{background-image: url("../PZ IMAGES/physique.png");}
+#Image_Matiere3{background-image: url("../PZ IMAGES/LOGOGEO2.png");}
+#Image_Matiere4{background-image: url("../PZ IMAGES/SVT.png");}
+#Image_Matiere5{background-image: url("../PZ IMAGES/math.png");}
+#Image_Matiere6{background-image: url("../PZ IMAGES/Physique_spe_2.png");}
+#Image_Matiere7{background-image: url("../PZ IMAGES/philo.jpg");}
+#Image_Matiere8{background-image: url("../PZ IMAGES/historia imagen.png");}
+#Image_Matiere9{background-image: url("../PZ IMAGES/classroom-1209820_640.jpg");}
+#Image_Matiere10{background-image: url("../PZ IMAGES/ANGLOGO.png");}
 
 
 
@@ -542,7 +542,7 @@ body
 
     body
     {
-        background-image: url("https://github.com/Jean-Marc17/Projet_Z/blob/master/PZ%20S%20Dossier/PZ%20IMAGES/landscape-3969127_1920.jpg?raw=true");
+        background-image: url("../PZ IMAGES/landscape-3969127_1920.jpg");
         background-attachment:fixed;
         background-size: 330% ;
 		background-position-x: -1000px;
@@ -653,7 +653,7 @@ body
 #ImageParcourSup
 {
     margin: auto;
-    background-image: url("https://projetz.netlify.app/PZ%20S%20Dossier/PZ%20IMAGES/parcourssup.jpg");
+    background-image: url("../PZ IMAGES/parcourssup.jpg");
 	width: 600px;
     height: 213px;
 
@@ -832,18 +832,7 @@ body
         border-radius: 50px;
         background-size: cover;
     }
-/*     
-    #Image_Matiere1{background-image: url("../PZ IMAGES/Quijote.png");}
-    #Image_Matiere2{background-image: url("../PZ IMAGES/physique.png");}
-    #Image_Matiere3{background-image: url("../PZ IMAGES/LOGOGEO2.png");}
-    #Image_Matiere4{background-image: url("../PZ IMAGES/SVT.png");}
-    #Image_Matiere5{background-image: url("../PZ IMAGES/math.png");}
-    #Image_Matiere6{background-image: url("../PZ IMAGES/Physique_spe_2.png");}
-    #Image_Matiere7{background-image: url("../PZ IMAGES/philo.jpg");}
-    #Image_Matiere8{background-image: url("../PZ IMAGES/historia imagen.png");}
-    #Image_Matiere9{background-image: url("../PZ IMAGES/classroom-1209820_640.jpg");}
-    #Image_Matiere10{background-image: url("../PZ IMAGES/ANGLOGO.png");}
-     */
+
     
     
     #Nom_Matiere
