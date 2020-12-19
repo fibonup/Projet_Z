@@ -33,7 +33,7 @@ $(document).ready(function(){
 	}
 });
 	
-	$("#BoutonClasse").click(function() {
+	$(".BoutonClasse").click(function() {
     if ($("#Choisirsaclasse").css('display') == "none" ) {
 		$("#Choisirsaclasse").fadeIn(400);
 		// $('#cadre_home').html("");
