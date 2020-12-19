@@ -53,7 +53,6 @@ body
 	margin: 15px 25px;
 	border-radius: 80px;
 	font-family: Trebuchet MS;
-	background-color:rgb(238, 137, 87)    ;
 	color: white;
 
 }
@@ -92,7 +91,7 @@ body
 	height: 60px;
 	border-radius: 200px;
 	cursor: pointer;
-	background-image: url("../../PZ IMAGES/Home_2.png");
+	background-image: url("PZ S Dossier/PZ IMAGES/Home_2.png");
 	background-size: cover;
 }
 
