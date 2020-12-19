@@ -33,7 +33,7 @@ $(document).ready(function(){
 	}
 });
 	
-	$("#Bouton-classe").click(function() {
+	$("#BoutonClasse").click(function() {
     if ($("#Choisirsaclasse").css('display') == "none" ) {
 		$("#Choisirsaclasse").fadeIn(400);
 		// $('#cadre_home').html("");
@@ -43,6 +43,18 @@ $(document).ready(function(){
 	}
 });    
      
+	$("#Choisirsaclasse").click(function() {
+    if ($("#Choisirsaclasse").css('display') == "none" ) {
+		$("#Choisirsaclasse").fadeIn(400);
+		// $('#cadre_home').html("");
+	} else {
+		$("#Choisirsaclasse").fadeOut(400);	
+		// $('#cadre_home').html("");
+	}
+});    
+     
+	
+	
 });
 
 
