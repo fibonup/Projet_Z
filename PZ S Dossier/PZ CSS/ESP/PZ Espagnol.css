@@ -329,110 +329,6 @@
 	font-variant: none;
 	width: 70%;
 }
-/*_____________________________________________________________________________________________________________________________________*/
-
-#ES_Sommaire_Matieres
-{
-	justify-content: space-around;
-	align-items: center;
-	margin-top: 70px;
-	margin-left: 30px;
-	margin-right: 30px;
-
-	display: flex;
-
-}
-
-
-
-
-
-.ES_Matieres
-{
-	cursor: pointer;
-	width: 250px;
-	height: 250px;
-	background-color: /*blue*/ rgb(255,255,255);
-	border-bottom: 3px rgb(225,225,225) solid; 
-	border-right: 3px rgb(225,225,225) solid;
-	margin: ;
-	padding: ;
-	text-align: center;
-	/*border-bottom: 3px rgb(238,238,238) solid; 
-	border-right: 3px rgb(238,238,238) solid;*/
-	border-radius: 150px ;
-	color: grey;
-
-
-}
-
-
-.ES_Matieres h3
-{
-
-
-	padding-top: 50px;
-	padding-bottom:25px;
-	padding-top: 90px;
-	margin-bottom: 50px;
-	
-}
-
-.ES_Matieres:hover
-{
-
-	border-bottom: 3px rgb(238,238,238) solid; 
-	border-right: 3px rgb(238,238,238) solid;
-	/*background-color: red;*/
-	/*color: white;*/
-	transition: 0.5s;
-	color: white;
-}
-
-
-
-
-
-
-
-.ES_Matieres:nth-child(1):hover
-{
-
-	background-color: rgb(81,208,215);
-}
-
-
-.ES_Matieres:nth-child(2):hover
-{
-
-	background-color: rgb(135,201,102);
-}
-
-.ES_Matieres:nth-child(3):hover
-{
-
-	background-color: rgb(209,73,47);
-}
-
-.ES_Matieres:nth-child(4):hover
-{
-
-	background-color: rgb(254,190,5);
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -453,6 +349,7 @@
 	font-family:  Trebuchet MS, sans-serif;
 	/*background-image: url("../../PZ IMAGES/spain-4719896_1280.jpg");  coordonnées de l'image: 36°32'01.4"N 6°17'42.8"W*/
 	background-attachment:fixed;
+	background-size: 120% ;
 	background-position-y: 120px;
 }
 
