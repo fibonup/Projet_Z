@@ -1,18 +1,8 @@
 @import '../../../BandeauNEW.css';
-
-
-
-
-
-#bandeau
+:root
 {
-	background-color: /*jaune*/ rgb(254,190,5);
-}
-
-
-#Matière
-{
-	background-color: /*rgb(222,167,1)*/ rgb(231,172,0);
+	BandeauCouleur: rgb(254,190,5);
+	MatiereCouleur: rgb(231,172,0);
 }
 
 
@@ -22,19 +12,14 @@
 
 #Cadre_intro
 {
-	
-	padding-left: 50px;
-	padding-top: 20px;
 	height: 600px;
 	background-color: white;
-	color: /*rgb(81,208,215)*/ white;
-	font-family:  Trebuchet MS, sans-serif	/*Arial Narrow, sans-serif Andale Mono, monospace*/;
-	/*font-style: italic;  */
-	box-shadow: inset 0 0 1em transparent, 0 0 0.5em  rgb(230,230,230)/*rgb(36,115,57)*/;
-
-
-	background-image: url("../../PZ IMAGES/spain-4719896_1280.jpg"); /* coordonnées de l'image: 36°32'01.4"N 6°17'42.8"W*/
+	color:  white;
+	font-family:  Trebuchet MS, sans-serif;
+	background-image: url("https://raw.githubusercontent.com/Jean-Marc17/Projet_Z/master/PZ%20S%20Dossier/PZ%20IMAGES/spain-4719896_1280.jpg"); /* coordonnées de l'image: 36°32'01.4"N 6°17'42.8"W*/
 	background-attachment:fixed;
+	background-size: 100% ;
+	background-position: center;
 }
 
 
@@ -43,271 +28,253 @@
 
 #Metodología
 {
-	
 	background-color: rgb(222,88,51);
 	padding-bottom: 100px;
-	/*border-bottom: 5px rgb(81,208,215) dashed;*/
-
-	/*padding-top: 10px;*/
-	/*margin: -1%;*/
-	
-	/*box-shadow: inset 0 0 1em transparent, 0 0 0.5em  rgb(254,190,5);*/
 }
 
 
-#TitreMetodología
+#TitrePARTIES
 {
 	text-align: center;
-
-
-	height: 100px;
-	/*width: 170px;*/
+	/* height: 100px; */
 	border-bottom: 5px white dotted;
-	/*border-top: 3px white dashed;*/
-	/*background-color: green;*/
 	color: white;
-
-
 	margin-bottom: 50px;
-	padding-top: 10px;
-	padding-left: 20px;
-
 	font-style: italic; 
 	font-family: Andale Mono, monospace;
 	font-variant: small-caps;
-	font-size: 20px;
-
+    font-size: 40px;
+	padding: 50px;
+	font-weight: bold;
 }
+
 
 
 #BlocMetodología
 {
 	display: flex;
-	margin: auto;
-	margin-bottom: 10px;
-	padding: 30px;
-	padding-left: 50px;
+	margin: 30px auto;
+	padding: 30px 50px;
 	width: 70%;
 	background-color: white;
 	border-radius: 20px;
 	cursor: pointer;
-	transition: 250ms;
+	transition: 200ms;
 }
 
 #BlocMetodología:hover
 {
+    transform: scale(1.02);
 	box-shadow: inset 0 0 1em transparent, 0 0 2em  rgb(152,53,24);
-	transition: 250ms;
+	transition: 200ms;
 }
 
 #ImageMetodología
 {
-	
 	height: 100px;
 	width: 100px;
-	
-	background-color: red;
+	background-color: rgb(222,88,51);
 	
 }
 
 #TexteMetodología
 {
-	/*height: 100px;*/
 	width: 50%;
 	margin-left: 50px;
 	padding: 10px;
-	/*background-color: yellow;*/
-	
 	font-family: Trebuchet MS;
 	color: rgb(222,88,51);
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
 #Lecturas
 {
-	
 	background-color: rgb(254,190,5);
 	padding-bottom: 100px;
-	/*border-bottom: 5px rgb(81,208,215) dashed;*/
-
-	/*padding-top: 10px;*/
-	/*margin: -1%;*/
-	
-	/*box-shadow: inset 0 0 1em transparent, 0 0 0.5em  rgb(254,190,5);*/
-}
-
-
-#TitreLecturas
-{
-	text-align: center;
-
-
-	height: 100px;
-	/*width: 170px;*/
-	border-bottom: 5px white dotted;
-	/*border-top: 3px white dashed;*/
-	/*background-color: green;*/
-	color: white;
-
-
-	margin-bottom: 50px;
-	padding-top: 10px;
-	padding-left: 20px;
-
-	font-style: italic; 
-	font-family: Andale Mono, monospace;
-	font-variant: small-caps;
-	font-size: 20px;
 
 }
+
 
 
 #BlocLecturas
 {
-
-	/*background-color: red;*/
+	background-color: red;
 }
 
 
-#formulaire_2
+
+
+#formulaire_ZAP, #formulaire_CAB
 {
+    width: 80%;
+    margin: auto 50px;
 	display: flex;
-	justify-content: left;
 	align-items: center;
-
-	background-color: white;
-	
-	margin-left:130px;
-	margin-right:20px;
-	
-	
-
-	border-radius: 250px 0px 250px 250px ;
-
+    background-color: white;
+    padding: 20px;
 	cursor: pointer;
-	height: 270px;
+    transition: 300ms;
+
 }
 
-#formulaire_1
+
+
+#formulaire_ZAP
 {
-	display: flex;
 	justify-content: right;
-	align-items: center;
-
-	background-color: white;	
-	
-	margin-left:20px;
-	margin-right: 130px;
-	
-	
-	border-radius: 0px 250px 250px 250px ;
-
-	cursor: pointer;
-	height: 270px;
+    border-radius: 0px 250px 250px 250px ;
+    margin-right: auto;
+    margin-bottom: 70px;
 }
-	
 
-#formulaire_1:hover
+
+#formulaire_CAB
 {
-		background-color: white;
-		box-shadow: inset 0 0 1em transparent, 0 0 0.5em  rgb(200,200,200);
-		transition: 0.3s;
+	justify-content: left;
+	border-radius: 250px 0px 250px 250px ;
+    margin-left: auto;
+} 
+
+
+	
+
+#formulaire_ZAP:hover
+{
+	background-color: white;
+    transition: 300ms;
+    transform: translate(50px,0px) scale(1.05); 
 }
 
 
-#formulaire_2:hover
+#formulaire_ZAP:hover > #ImageZAP
+{
+    transition: 500ms;
+    transform: translate(-20px,0px) ; 
+	box-shadow: 8px 5px 10px  rgb(230, 230, 230);
+}
+
+
+#formulaire_ZAP:hover > #TitreZAP
+{
+    transition: 400ms;
+    transform: translate(-20px,0px); 
+}
+
+#formulaire_CAB:hover
 {
 	background-color: white;
 	box-shadow: inset 0 0 1em transparent, 0 0 0.5em  rgb(200,200,200);
-	transition: 0.3s;
+    transition: 300ms;
+    transform: translate(-50px,0px) scale(1.05); 
+} 
+
+
+#formulaire_CAB:hover > #ImageCAB
+{
+    transition: 500ms;
+    transform: translate(20px,0px) ; 
+	box-shadow: -8px 5px 10px  rgb(230, 230, 230);
 }
 
 
-#ZAPATERA
+#formulaire_CAB:hover > #TitreCAB
 {
-	background-color: /*green*/;
-	
+    transition: 400ms;
+    transform: translate(20px,0px); 
+}
+
+
+
+#ImageZAP, #ImageCAB
+{
 	height: 220px;
 	width: 440px;
-	margin-right:19px;
-	/*margin-right:19px;*/
-	/*margin-top:100px;*/
 	border-radius: 250px ;
 	border: rgb(254,190,5) 6px solid;
-	opacity: 0.9;
-	
-	background-image: url("../../PZ IMAGES/Zapatera_2.png");
-	background-size: cover;
+    background-size: cover;
+    transition: 400ms;
+    
 }
 
-#CABEZA
+
+#ImageZAP
 {
-	background-color: /*yellow*/;
-
-	height: 220px;
-	width: 440px;
-	/*margin-left:30px;*/
-	margin-left:19px;
-	/*margin-top:100px;*/
-	border-radius: 130px ;
-	border: rgb(254,190,5) 6px solid;
-	opacity: 0.9;
-		
-	background-image: url("../../PZ IMAGES/cabeza_del_dragon.png");
-	background-size: cover;
+	background-image: url("https://github.com/Jean-Marc17/Projet_Z/blob/master/PZ%20S%20Dossier/PZ%20IMAGES/Zapatera_2.png?raw=true");
 }
 
-#LIVIRE_FANTOME_2
+
+#ImageCAB
 {
-	text-align: left;
-	font-style: italic;
-	font-family: Trebuchet MS, sans-serif;
-
-	height: 160px;
-	width: 500px;
-	color: rgb(254,190,5);
-
-	
-	margin-left: 58px;
-	padding-left: 40px;
-
-	border-left: rgb(254,190,5) 5px solid;
-	/*background-color: white;*/
+	background-image: url("https://github.com/Jean-Marc17/Projet_Z/blob/master/PZ%20S%20Dossier/PZ%20IMAGES/cabeza_del_dragon.png?raw=true");
 }
 
 
-#LIVIRE_FANTOME_1
+
+#TitreZAP, #TitreCAB
 {
 	text-align: right;
 	font-style: italic;
 	font-family: Trebuchet MS, sans-serif /*Andale Mono, monospace*/;
-
 	height: 160px;
-	width: 500px;
-	color: rgb(254,190,5);
-
-	margin-right: 58px;
-	padding-right: 40px;
-	
-	border-right: rgb(254,190,5) 5px solid;
-	/*background-color: white;*/
+    padding: 0px 70px;
+	margin: 0px 70px;
+    transition: 400ms;
 }
+
+
+
+
+#TitreZAP
+{
+	color: rgb(254,190,5);
+    margin-left: auto;
+	border-right: rgb(254,190,5) 5px solid;
+}
+
+
+
+#TitreCAB
+{
+    color: rgb(254,190,5);
+	border-left: rgb(254,190,5) 5px solid;
+    
+    margin-right: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 #Cadre_conjugaison
 {
-	margin-top: 5px;
-	/*padding: 30px;*/
-	height: 500px;
+	height: 800px;
 	background-color: rgb(81,208,215);
 	color: white;
 	font-variant: small-caps;
 	font-family: Trebuchet MS, sans-serif;
-	/*border-top: 5px rgb(254,190,5) dashed;*/
-
-	
-	/*border-top: white 10px solid;*/
-	/*box-shadow: inset 0 0 1em transparent, 0 0 0.5em  WHITE;	*/
 }
 
 #CadreParties
@@ -317,57 +284,50 @@
 }
 
 
-#BlocRappelConjugaison
-{
-
-	height: 300px;
-	width: 500px;
-	background-color: white;
-	border-radius: 80px;
-	cursor: pointer;
-}
-
 #LienConjugaison
 {
 	height: 300px;
 	width: 500px;
 	background-color: white;
 	border-radius: 80px;
-	cursor: pointer;
+    cursor: pointer;
+    transition: 200ms;
 }
 
 
+#LienConjugaison:hover
+{
+    transform: rotateZ(5deg) scale(1.05);
+    transition: 200ms;
+}
 
 
 #TitrePartiesConjugaison
 {
 	margin: auto;
 	text-align: center;
-	/*line-height: 70px;*/
-	/*background-color: red;*/
-	color: rgb(81,208,215);
+	color: orange;
 	height: 50px;
-	width: 500px;
+	width: auto;
+    padding: 20px;
+	font-weight: bold;
 	border-bottom: 7px rgb(81,208,215) double;
-
+	font-size: 30px;
 }
 
 
 #Intérieur
 {
-	/*background-color: red;*/
 	color: rgb(81,208,215);
-	border-left : 5px rgb(81,208,215) dotted;
 
-	padding: 10px;
+	padding: 0px 10px;
 	font-size: 22px;	
 	
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 30px;
-
+	margin: auto;
+	margin-top: 50px;
+	text-align: center;
 	font-variant: none;
-	width: 350px;
+	width: 70%;
 }
 /*_____________________________________________________________________________________________________________________________________*/
 
@@ -471,10 +431,265 @@
 
 
 
-#footer
+
+
+
+
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+
+
+@media (max-width: 1100px)
 {
-	background-color: /*FRANCAIS ROSE*/ rgb(254,190,5);
+  
+#Cadre_intro
+{
+	height: 600px;
+	background-color: white;
+	color:  white;
+	font-family:  Trebuchet MS, sans-serif;
+	/*background-image: url("../../PZ IMAGES/spain-4719896_1280.jpg");  coordonnées de l'image: 36°32'01.4"N 6°17'42.8"W*/
+	background-attachment:fixed;
+	background-position-y: 120px;
 }
+
+
+
+
+
+#TitrePARTIES
+{
+	/* height: 100px; */
+	border-bottom: 10px white dotted;
+	color: white;
+	margin-bottom: 100px;
+	font-style: italic; 
+	font-family: Andale Mono, monospace;
+	font-variant: small-caps;
+    font-size: 70px;
+    font-weight: bold;
+    padding: 50px;
+    text-align: center;
+}
+
+
+
+
+#Metodología
+{
+	background-color: rgb(222,88,51);
+	padding-bottom: 100px;
+}
+
+
+
+#BlocMetodología
+{
+	display: flex;
+	margin: 30px auto;
+	padding: 30px 50px;
+	width: 70%;
+	background-color: white;
+	border-radius: 20px;
+	cursor: pointer;
+	transition: 200ms;
+}
+
+#BlocMetodología:hover
+{
+    transform: scale(1.02);
+	box-shadow: inset 0 0 1em transparent, 0 0 2em  rgb(152,53,24);
+	transition: 200ms;
+}
+
+#ImageMetodología
+{
+	height: 200px;
+	width: 200px;
+	background-color: rgb(222,88,51);
+	
+}
+
+#TexteMetodología
+{
+    font-size: 30px;
+	width: 65%;
+	margin-left: 50px;
+	padding: 10px;
+	font-family: Trebuchet MS;
+	color: rgb(222,88,51);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#Lecturas
+{
+	background-color: rgb(254,190,5);
+	padding-bottom: 200px;
+
+}
+
+
+
+
+
+#formulaire_ZAP, #formulaire_CAB
+{
+    width: auto;
+    margin: auto 50px;
+	display: block;
+	align-items: center;
+    background-color: white;
+    padding: 20px;
+	cursor: pointer;
+    transition: 300ms;
+    /* justify-content: center; */
+    border-radius: 0px;
+}
+
+
+
+#formulaire_ZAP
+{
+    border-radius: 0px 250px 250px 250px ;
+    margin-bottom: 70px;
+}
+
+
+#formulaire_CAB
+{
+	/* border-radius: 250px 250px 0px 250px ; */
+
+	border-radius: 250px 0px 250px 250px ;
+} 
+
+
+	
+
+#ImageZAP, #ImageCAB
+{
+	height: 330px;
+	width: 660px;
+	border-radius: 250px ;
+	border: rgb(254,190,5) 8px solid;
+    background-size: cover;
+    margin: auto;
+}
+
+
+#ImageZAP
+{
+	/* background-image: url("../../PZ IMAGES/Zapatera_2.png"); */
+}
+
+
+#ImageCAB
+{
+	/* background-image: url("../../PZ IMAGES/cabeza_del_dragon.png"); */
+}
+
+
+
+#TitreZAP, #TitreCAB
+{
+    /* background-color: tomato; */
+    text-align: center;
+    font-size: 25px;
+    height: auto;
+    padding: 20px;
+	margin: auto;
+}
+
+
+
+#TitreZAP
+{
+	border: none;
+}
+
+
+
+#TitreCAB
+{
+	border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#Cadre_conjugaison
+{
+	height: auto;
+	background-color: rgb(81,208,215);
+	color: white;
+	font-variant: small-caps;
+    font-family: Trebuchet MS, sans-serif;
+    padding-bottom: 50px;
+}
+
+#CadreParties
+{
+    /* background-color: tomato; */
+	display: block;
+}
+
+
+#LienConjugaison
+{
+    height: 450px;
+	width: 750px;
+    border-radius: 120px;
+    margin: 150px auto;
+}
+
+
+
+
+#TitrePartiesConjugaison
+{
+    font-size: 50px;
+    padding: 40px;
+    width: auto;
+}
+
+
+#Intérieur
+{
+	color: rgb(81,208,215);
+	font-size: 40px;	
+	margin-top: 60px;
+}
+
+
+}
+
+
 
 
 
