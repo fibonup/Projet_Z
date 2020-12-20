@@ -166,10 +166,10 @@ body
 {
 	margin: auto;
 	width: 80%;
-	padding: 0px 50px;	
+	padding: 0px 30px;	
 	background-color: white;
 	border: 3px rgb(230,230,230) solid;
-
+	margin-bottom: 200px;
 
 	border-radius: 25px ;
 }
