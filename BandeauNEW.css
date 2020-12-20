@@ -176,7 +176,7 @@ body
 
 
 
-#cours
+#cours, #cours1, #cours2, #cours3, #cours4, #cours5
 {
 	display: flex;
 	width: 80%;
@@ -211,14 +211,14 @@ body
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-#cours:hover > #titre_tema
+#cours:hover > #titre_tema, #cours1:hover > #titre_tema, #cours2:hover > #titre_tema, #cours3:hover > #titre_tema, #cours4:hover > #titre_tema, #cours5:hover > #titre_tema
 {
 	transition: 200ms;
 	color: var(--BandeauCouleur);
 }
 
 
-#cours:hover
+#cours:hover, #cours1:hover, #cours2:hover, #cours3:hover, #cours4:hover, #cours5:hover
 {
 	transition: 200ms;
 	border: 3px var(--BandeauCouleur) solid;
@@ -371,7 +371,8 @@ body
 
 
 
-	#cours
+	
+	#cours, #cours1, #cours2, #cours3, #cours4, #cours5
 	{
 		display: block;
 		width: 750px;
