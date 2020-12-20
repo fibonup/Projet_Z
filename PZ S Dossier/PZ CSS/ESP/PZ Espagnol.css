@@ -1,8 +1,8 @@
 @import '../../../BandeauNEW.css';
 :root
 {
-	BandeauCouleur: rgb(254,190,5);
-	MatiereCouleur: rgb(231,172,0);
+	--BandeauCouleur: rgb(254,190,5);
+	--MatiereCouleur: rgb(231,172,0);
 }
 
 
