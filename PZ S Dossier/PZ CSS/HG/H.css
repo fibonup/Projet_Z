@@ -1,10 +1,8 @@
 @import '../../../BandeauNEW.css';
-
-
-
-#bandeau
+:root
 {
-	background-color: /*vert*/ rgb(216,118,13);
+	--BandeauCouleur: rgb(216,118,13);
+	--MatiereCouleur: rgb(216,118,13);
 }
 
 
@@ -12,241 +10,118 @@
 
 
 
-
-
-#titre_partie
+#Sommaire_cours
 {
-	/*background-color: blue;*/
-	/*padding: 0.5px;*/
-	/*display: flex;*/
-	/*margin: -1%;*/
-	border-bottom: 5px vert rgb(51,163,83) solid;
-	border-top: 5px vert rgb(51,163,83) solid;
-	/*height: 1500px;*/
-	margin-bottom: 100px;
-	
-}
-
-
-
-
-.titre_ h2
-
-{
-	/*text-decoration: none;*/
-	background-color: rgb(197,50,27);				/*55,142,214*/
-	/*border: 1px rgb(25,42,132) solid;*/
-	color: white;
-	/*padding: 20px;*/
-	/*padding-right: 50px;*/
-	padding-left: 100px;
-	padding-bottom: 25px;
-	padding-top:25px;
-	margin-right: 30px;
-	margin-left: -1%;
-	border-radius: 0px  25px 0px 0px  ;
-
-
-}
-
-
-
-.grand_titre h2
-{
-
-	/*text-decoration: none;*/
-	background-color: white /*rgb(64,129,237)*/;
-	color: red;
-	/*padding: 20px;*/
-	/*padding-right: 50px;*/
-	padding-left: 50px;
-	padding-bottom: 25px;
-	padding-top:25px;
-	margin-right: 75px;
-	margin-left: 35px;
-	margin-bottom: 25px;
-	border: solid 2px red ;
-	border-radius: 0px  25px 0px 0px ;
-
-
-
-}
-
-
-
-#Sommaire_cours 
-{
-	background-color: white/*rgb(238,238,225)*/ ;
-	padding: 20px;
-	padding-top: 50px;
+	margin: auto;
+	width: 80%;
+	padding: 0px 50px;	
+	background-color: white;
 	border: 3px rgb(230,230,230) solid;
-	/*border-radius: 10px ;*/
 
 
-	border-radius: 0px  0px 25px 25px  ;
-
-
-	/*height: 1370px;*/
-	margin-right: 50px;
-	margin-left: 50px;
-	
+	border-radius: 25px ;
 }
 
 
 
-
-
-
-
-
-
-#Sommaire
+#cours
 {
-	/*background-color: green;*/
-	/*padding-top: 80px;*/
-	/*border: 3px rgb(230,230,230) solid;*/
-	/*border-radius: 10px ;*/
-
-
-
-	/*margin-left: 30px;*/
-
-	/*height: 600px;*/
-	margin-left: 70px;
-	margin-right: 100px;
-	margin-bottom: 70px;
-
-}
-
-
-
-
-#Sommaire2
-{
-	/*background-color: green;*/
-	/*padding-top: 80px;*/
-	/*border: 3px rgb(230,230,230) solid;*/
-	/*border-radius: 10px ;*/
-
-
-
-	/*margin-left: 30px;*/
-
-	height: 500px;
-	margin-left: 70px;
-	margin-right: 100px;
-
-}
-
-
-
-#cours 
-{
+	display: flex;
+	width: 80%;
+	margin: 80px auto;
 	cursor: pointer;
-	/*border-top: 3px black solid;*/
-	/*border: 2px black solid;*/
-	text-decoration: none;
-	height: 150px;
-	display:flex;
-	border: 3px grey solid;
-	margin-bottom: 50px;
-	/*background-color: rgb(80,180,231);*/
+	transition: 200ms;
 	border-radius: 0px  0px 15px 0px  ;
-	opacity: 1;
-
+	border: 3px grey solid;
 
 }
 
 
 
-
-
-				/*rgb(181,230,29)*/	/*rgb(220,201,116)*/			 /*red*/  
-
-
-
-
-
-#cours:hover h2
-{	
-	
-	color: /*Marron clair*/ rgb(236,138,33);
-	/*transition: 0.5s;*/
-}
-									/*BLEU rgb(75,162,234)*/
-
-#cours:hover 
-{	
-	border: 3px /*Marron clair*/ rgb(236,138,33) solid;
-}
-
-
-
-
-
-
-.image_tema
+#image_tema
 {
-	height: 150px;
-	width: 250px;
 	background-color: orange;
-	/*border-radius: 15px  0px 0px 0px  ;*/
-	
+	width: 250px;
+    height: 150px;
+	background-size: cover;
 
 }
 
-
-
-
-.titre_tema a 
+#titre_tema
 {
-	text-decoration: none;
-
-}
-
-.titre_tema h2 
-{
-
-	/*background-color:	rgb(164,140,242)	 /*orange*/  /*rgb(255,210,128)*/;*/
-	/*text-decoration: none !important;*/
-
-	
-	text-decoration: none;
-	width: 550px;
-	/*height: 50px;*/
-
-	font-family: Trebuchet MS;
+	transition: 200ms;
+	margin-left: 50px;
+	padding: 20px;
+	width: 60%;
 	color: grey;
+	font-weight: bold;
+	font-size: 17px;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 
-	/*background-color: rgb(255,221,51);  */
-	/*border-radius: 5px ;*/
+#cours:hover > #titre_tema
+{
+	transition: 200ms;
+	color: orange;
+}
 
-	/*width: 1000px;*/
 
-	/*padding-bottom: 70px;*/
-	/*padding-top: 70px;*/
-	padding-left: 40px;
+#cours:hover
+{
+	transition: 200ms;
+	border: 3px orange solid;
+	transform: scale(1.02); 
+}
 
+
+
+
+
+
+
+@media (max-width: 1000px)
+{
 	
-	/*margin-right: 50px;*/
-	/*margin-bottom: 50px;*/
+
+	#Sommaire_cours
+	{
+		margin: auto;
+		width: 80%;
+		padding: 0px 50px;	
+		background-color: white;
+		border: 3px rgb(230,230,230) solid;
+
+
+		border-radius: 50px ;
+	}
+
+
+
+	#cours
+	{
+		display: block;
+		width: 750px;
+		border-radius: 0px 0px 40px 0px ;
+		margin-bottom: 150px;
+
+	}
+
+
+
+	#image_tema
+	{
+		width: 750px;
+		height: 450px;
+	}
+
+	#titre_tema
+	{	
+		font-size: 40px;
+	}
+
+
+
 }
 
 
-
-.titre_tema:hover h2
-{
-	color: white;
-	/*transition: 0.3s;*/
-}
-
-
-
-
-
-
-#footer
-{
-	background-color: /*Marron clair*/ rgb(236,138,33);
-}
 
