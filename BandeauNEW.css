@@ -13,9 +13,9 @@ body
 	display: flex;
 	justify-content: space-between;
 	height: 100px;
-	background-color: rgb(248,155,109);
+	background-color: var(--BandeauCouleur);
 	
-	margin-bottom: 10px;
+	
 
 }
 
@@ -43,7 +43,7 @@ body
     margin: auto;
     border-radius: 80px;
 	font-family: Trebuchet MS;
-	background-color:rgb(238, 137, 87)    ;
+	background-color: var(--MatiereCouleur)    ;
 	color: white;
 }
 
@@ -135,9 +135,8 @@ body
 	justify-content: center;
 
 	padding: 30px;
-
+	background-color: var(--BandeauCouleur);
 	display: flex;
-	/* padding-left: 50px; */
 }
 
 
@@ -162,6 +161,77 @@ body
 
 
 
+
+#Sommaire_cours
+{
+	margin: auto;
+	width: 80%;
+	padding: 0px 50px;	
+	background-color: white;
+	border: 3px rgb(230,230,230) solid;
+
+
+	border-radius: 25px ;
+}
+
+
+
+#cours
+{
+	display: flex;
+	width: 80%;
+	margin: 80px auto;
+	cursor: pointer;
+	transition: 200ms;
+	border-radius: 0px  0px 15px 0px  ;
+	border: 3px grey solid;
+
+}
+
+
+
+#image_tema
+{
+	background-color: var(--BandeauCouleur);
+	width: 250px;
+    height: 150px;
+	background-size: cover;
+
+}
+
+#titre_tema
+{
+	transition: 200ms;
+	margin-left: 50px;
+	padding: 20px;
+	width: 60%;
+	color: grey;
+	font-weight: bold;
+	font-size: 17px;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#cours:hover > #titre_tema
+{
+	transition: 200ms;
+	color: var(--BandeauCouleur);
+}
+
+
+#cours:hover
+{
+	transition: 200ms;
+	border: 3px var(--BandeauCouleur) solid;
+	transform: scale(1.02); 
+}
+
+
+
+
+
+
+
+
 /* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
 
@@ -174,7 +244,7 @@ body
 #bandeau
  {
 	height: 100%;
-    display: flex;
+    	display: flex;
 	justify-content: space-between;
 	margin-bottom: 10px;
  }   
@@ -200,7 +270,6 @@ body
 {
     margin: auto;
     border-radius: 80px;
-	background-color:rgb(238, 137, 87)    ;
 }
 
 
@@ -224,7 +293,7 @@ body
 	height: 90px;
 	border-radius: 200px;
 	cursor: pointer;
-	background-image: url("../../PZ IMAGES/Home_2.png");
+	background-image: url("PZ S Dossier/PZ IMAGES/Home_2.png");
 	background-size: cover;
 }
 
@@ -234,7 +303,7 @@ body
 {
 	background-color: WHITE;
 	line-height: 100px;
-	background-image: url("../../PZ IMAGES/Home_2.png");
+	background-image: url("PZ S Dossier/PZ IMAGES/Home_2.png");
 	background-size: cover;
 }
 
@@ -264,7 +333,6 @@ body
 {
 	/* animation: example 30s infinite; */
 	justify-content: center;
-	background-color: tomato;
 	padding: 30px;
 	display: block;
 }
@@ -285,6 +353,46 @@ body
 	border: none;
 	padding: 50px;
 }
+	
+	
+	
+
+	#Sommaire_cours
+	{
+		margin: auto;
+		width: 80%;
+		padding: 0px 50px;	
+		background-color: white;
+		border: 3px rgb(230,230,230) solid;
+
+
+		border-radius: 50px ;
+	}
+
+
+
+	#cours
+	{
+		display: block;
+		width: 750px;
+		border-radius: 0px 0px 40px 0px ;
+		margin-bottom: 150px;
+
+	}
+
+
+
+	#image_tema
+	{
+		width: 750px;
+		height: 450px;
+	}
+
+	#titre_tema
+	{	
+		font-size: 40px;
+	}
+
 
 
 }
